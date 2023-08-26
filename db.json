@@ -1,0 +1,105 @@
+{
+  "users": [
+    {
+      "id": "user1",
+      "username": "alice",
+      "avatar": "https://picsum.photos/id/237/200/300"
+    },
+    {
+      "id": "user2",
+      "username": "bob",
+      "avatar": "https://picsum.photos/id/238/200/300"
+    },
+    {
+      "id": "user3",
+      "username": "charlie",
+      "avatar": "https://picsum.photos/id/239/200/300"
+    },
+    {
+      "id": "user4",
+      "username": "david",
+      "avatar": "https://picsum.photos/id/240/200/300"
+    },
+    {
+      "id": "user5",
+      "username": "emma",
+      "avatar": "https://picsum.photos/id/241/200/300"
+    }
+  ],
+  "chats": [
+    {
+      "id": "chat1",
+      "members": ["user1", "user2"],
+      "messages": [
+        {
+          "id": "message1",
+          "senderId": "user1",
+          "recipientId": "user2",
+          "content": "Hello, Bob!",
+          "timestamp": "2023-08-21T10:00:00Z",
+          "seen": false
+        },
+        {
+          "id": "message2",
+          "senderId": "user2",
+          "recipientId": "user1",
+          "content": "Hi, Alice!",
+          "timestamp": "2023-08-21T10:05:00Z",
+          "seen": false
+        }
+      ]
+    },
+    {
+      "id": "chat2",
+      "members": ["user1", "user3"],
+      "messages": [
+        {
+          "id": "message3",
+          "senderId": "user1",
+          "recipientId": "user3",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus ipsum veritatis perspiciatis tempore animi, vero omnis inventore. Vero minus est recusandae repellendus nulla exercitationem voluptatum aut quidem iusto eveniet.Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus ipsum veritatis perspiciatis tempore animi, vero omnis inventore. Vero minus est recusandae repellendus nulla exercitationem voluptatum aut quidem iusto eveniet.",
+          "timestamp": "2023-08-21T10:10:00Z",
+          "seen": false
+        },
+        {
+          "id": "message8",
+          "senderId": "user1",
+          "recipientId": "user3",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus ipsum veritatis perspiciatis tempore animi, vero omnis inventore. Vero minus est recusandae repellendus nulla exercitationem voluptatum aut quidem iusto eveniet.Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus ipsum veritatis perspiciatis tempore animi, vero omnis inventore. Vero minus est recusandae repellendus nulla exercitationem voluptatum aut quidem iusto eveniet.",
+          "timestamp": "2023-07-21T10:10:00Z",
+          "seen": false
+        },
+        {
+          "id": "message9",
+          "senderId": "user1",
+          "recipientId": "user3",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus ipsum veritatis perspiciatis tempore animi, vero omnis inventore. Vero minus est recusandae repellendus nulla exercitationem voluptatum aut quidem iusto eveniet.Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus ipsum veritatis perspiciatis tempore animi, vero omnis inventore. Vero minus est recusandae repellendus nulla exercitationem voluptatum aut quidem iusto eveniet.",
+          "timestamp": "2023-07-21T10:10:00Z",
+          "seen": false
+        },
+        {
+          "id": "message10",
+          "senderId": "user1",
+          "recipientId": "user3",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus ipsum veritatis perspiciatis tempore animi, vero omnis inventore. Vero minus est recusandae repellendus nulla exercitationem voluptatum aut quidem iusto eveniet.Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi voluptatibus ipsum veritatis perspiciatis tempore animi, vero omnis inventore. Vero minus est recusandae repellendus nulla exercitationem voluptatum aut quidem iusto eveniet.",
+          "timestamp": "2023-07-21T10:10:00Z",
+          "seen": false
+        }
+      ]
+    },
+    {
+      "id": "chat3",
+      "members": ["user2", "user4"],
+      "messages": [
+        {
+          "id": "message4",
+          "senderId": "user2",
+          "recipientId": "user4",
+          "content": "It's going well, thanks!",
+          "timestamp": "2023-08-21T10:15:00Z",
+          "seen": true
+        }
+      ]
+    }
+  ]
+}
