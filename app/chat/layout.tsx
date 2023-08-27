@@ -11,7 +11,7 @@ const ChatLayout = ({ children }: { children: React.ReactNode }) => {
   const router = useRouter();
   const pathname = usePathname();
   const { isLoaded, userId, sessionId, getToken } = useAuth();
-  console.log(isLoaded, userId);
+  console.log(isLoaded, userId, sessionId, getToken);
   if (pathname == '/chat') {
     router.replace(`/chat/${'empty'}`);
   }
